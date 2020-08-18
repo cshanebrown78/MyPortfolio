@@ -1,3 +1,12 @@
+body {
+    /* padding-top: 70px; */
+    position: relative;
+}
+
+section {
+    padding: 8rem 0;
+}
+
 .myName{
     margin-left: 15px;
 }
@@ -21,4 +30,20 @@
 
 button .btn-position {
     text-align: center;
+}
+
+section #statement{
+    margin-top: 15px
+}
+
+/* resume */
+
+.container-resume {
+    max-width: 960px;
+    margin: auto;
+}
+
+embed {
+    width: 800px;
+    height: 1100px;
 }

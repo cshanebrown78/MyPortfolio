@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <nav class="navbar navbar-default navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div>
             <img width="80" height="80" src="assets/images/Me1.jpg">
         </div>
@@ -22,23 +22,34 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Projects</a>
+              <a class="nav-link active" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Skills</a>
+              <a class="nav-link" href="#skills">Skills</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Resume</a>
+                <a class="nav-link" href="#resume">Resume</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
     </nav>
+
+    <section class="text-white text-center bg-dark" id="statement">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mx-auto text-center">
+                    </br><h2>My Portfolio</h2></br>
+                    <p class="mb-4">Full Stack Web Developer with an extensive background as a Financial Analyst.  Passionate about problem solving and enjoy creating new things.  Trained in Javascript, SQL, MongoDB, React, and other programming languages.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section id="about">
         <div class="container">
@@ -50,7 +61,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section><hr>
         
 
     <!-- <div class = "container">
@@ -97,6 +108,7 @@
                                 <div class="card-body">
                                     <h5 class="card-title">Space Vacation</h5>
                                     <p class="card-text">This app was designed to get users interested in space travel.  The user chooses a planet and a rocket an the App uses simplistic calculations to give users a sense of the distance between planets while also showing them interesting facts about those planets</p>
+                                    <p><strong>Technologies Used: </strong> Javascript, Bootstrap, JQuery, APIs, AJAX, JQuery</p>
                                     <a href="https://cshanebrown78.github.io/SpaceVacation/">App</a><br>
                                     <a href="https://github.com/cshanebrown78/SpaceVacation">Git Hub Repo</a>
                                 </div>
@@ -117,6 +129,7 @@
                               <div class="card-body">
                                   <h5 class="card-title">Fantasy Football Advisor</h5>
                                   <p class="card-text">This is an App developed as part of a project for our coding bootcamp class.  At this point in the development it is intended to help new people to Fantasy Football with their draft.  Users create and account and then draft players.  The draft page shows the top 5 players at each position.</p>
+                                  <p><strong>Technologies Used: </strong> Javascript, MySQL, Sequilize, Bootstrap</p>
                                   <a href="https://immense-dawn-88778.herokuapp.com/">App</a><br>
                                   <a href="https://github.com/cshanebrown78/FantasyFootballAdvisor">Git Hub Repo</a>
                               </div>
@@ -131,14 +144,15 @@
                   <div class="card mb-3 mx-auto" style="max-width: 1040px;">
                       <div class="row no-gutters">
                           <div class="col-md-4">
-                              <img src="assets/images/space1.png" class="card-img" alt="Space Vacation">
+                              <img src="assets/images/friendfinder.png" class="card-img" alt="Space Vacation">
                           </div>
                           <div class="col-md-8">
                               <div class="card-body">
-                                  <h5 class="card-title">Space Vacation</h5>
-                                  <p class="card-text">This app was designed to get users interested in space travel.  It uses simplistic calculations to give users a sense of the distance between planets while also showing them interesting facts about those planets</p>
-                                  <a href="https://cshanebrown78.github.io/SpaceVacation/">App</a><br>
-                                  <a href="https://github.com/cshanebrown78/SpaceVacation">Git Hub Repo</a>
+                                  <h5 class="card-title">Friend Finder</h5>
+                                  <p class="card-text">This app has the user enter their name and a link to an image of them and then has them answer some questions based on a value from 1 - 5. Once these are submitted it compares the scores to that of people in the system and matches the one with the closest score displaying that person in a modal.</p>
+                                  <p><strong>Technologies Used: </strong> Javascript, Bootstrap, Body Parser,  Node Express</p>
+                                  <a href="https://shrouded-falls-45844.herokuapp.com/">App</a><br>
+                                  <a href="https://github.com/cshanebrown78/FriendFinder">Git Hub Repo</a>
                               </div>
                           </div>
                       </div>
@@ -151,14 +165,15 @@
                   <div class="card mb-3 mx-auto" style="max-width: 1040px;">
                       <div class="row no-gutters">
                           <div class="col-md-4">
-                              <img src="assets/images/space1.png" class="card-img" alt="Space Vacation">
+                              <img src="assets/images/googlebooks.png" class="card-img" alt="Space Vacation">
                           </div>
                           <div class="col-md-8">
                               <div class="card-body">
-                                  <h5 class="card-title">Space Vacation</h5>
-                                  <p class="card-text">This app was designed to get users interested in space travel.  It uses simplistic calculations to give users a sense of the distance between planets while also showing them interesting facts about those planets</p>
-                                  <a href="https://cshanebrown78.github.io/SpaceVacation/">App</a><br>
-                                  <a href="https://github.com/cshanebrown78/SpaceVacation">Git Hub Repo</a>
+                                  <h5 class="card-title">React Google Books Search</h5>
+                                  <p class="card-text">This app was designed to be a MongoDB Single Page Application. This is accomplished through the use of react-router-dom, which hides and shows React components based on user actions. It is a full MERN stack application.</p>
+                                  <p><strong>Technologies Used: </strong> REACT, Mongoose, Express, Node, Axios, React-Router-Dom</p>
+                                  <a href="https://boiling-refuge-58776.herokuapp.com/">App</a><br>
+                                  <a href="https://github.com/cshanebrown78/REACT-Google-Book-Search">Git Hub Repo</a>
                               </div>
                           </div>
                       </div>
@@ -174,7 +189,16 @@
       </section>
 
       <section id="resume">
-
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 mx-auto text-center">
+                    <h2>Resume</h2></br>
+                    <div class = container-resume> 
+                        <embed src="assets/Files/resume.pdf"/>
+                    </div>
+                </div>
+            </div>
+        </div>
       </section>
 
       <section id="contact">
