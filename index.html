@@ -22,10 +22,10 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#about">About <span class="sr-only"></span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#projects">Projects</a>
+              <a class="nav-link" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#skills">Skills</a>
@@ -40,28 +40,28 @@
         </div>
     </nav>
 
-    <section class="text-white text-center bg-dark" id="statement">
-        <div class="container">
+    <section class="text-white text-center statement">
+        <!-- <div class="container statement"> -->
             <div class="row">
                 <div class="col-lg-6 mx-auto text-center">
                     </br><h2>My Portfolio</h2></br>
                     <p class="mb-4">Full Stack Web Developer with an extensive background as a Financial Analyst.  Passionate about problem solving and enjoy creating new things.  Trained in Javascript, SQL, MongoDB, React, and other programming languages.</p>
                 </div>
             </div>
-        </div>
+        <!-- </div> -->
     </section>
 
-    <section id="about">
+    <section id="about" class="bg-secondary">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 mx-auto text-center">
+                <div class="col-lg-12 mx-auto text-center text-white">
                     <h2>Brief Background</h2></br>
                     <p class="mb-4">Hello, my name is Christopher Shane Brown.  I know you are wondering if I go by Christopher or Chris, but I actually go by Shane.  In 1996 I graduated from Athens High School and started studying at the University of Texas where I graduated with a bachelors degree in Economics and a  business foundations certificate.
                    After spending more than 10 years as a Financial Analyst and being laid off twice in 3 years I decided to make a change.  Having always liked programming and computers in school, I decided that coding boot camp was a good path for me and started a program to become a full stack web developer.  This was something that I could use as a career and could be combined with my Analyst experience</p>
                 </div>
             </div>
         </div>
-    </section><hr>
+    </section>
         
 
     <!-- <div class = "container">
@@ -98,19 +98,19 @@
           <div class="containter">
               <div class="row">
                   <div class="col-lg-12 mx-auto text-center">
-                    <h2>Projects</h2></br>
+                    <h2 class="text-white">Projects</h2></br>
                     <div class="card mb-3 mx-auto" style="max-width: 1040px;">
                         <div class="row no-gutters">
-                            <div class="col-md-4">
+                            <div class="col-md-4 bg-secondary">
                                 <img src="assets/images/space1.png" class="card-img" alt="Space Vacation">
                             </div>
                             <div class="col-md-8">
-                                <div class="card-body">
+                                <div class="card-body bg-secondary">
                                     <h5 class="card-title">Space Vacation</h5>
                                     <p class="card-text">This app was designed to get users interested in space travel.  The user chooses a planet and a rocket an the App uses simplistic calculations to give users a sense of the distance between planets while also showing them interesting facts about those planets</p>
                                     <p><strong>Technologies Used: </strong> Javascript, Bootstrap, JQuery, APIs, AJAX, JQuery</p>
-                                    <a href="https://cshanebrown78.github.io/SpaceVacation/">App</a><br>
-                                    <a href="https://github.com/cshanebrown78/SpaceVacation">Git Hub Repo</a>
+                                    <a href="https://cshanebrown78.github.io/SpaceVacation/" class="text-dark"><strong>App</strong></a><br>
+                                    <a href="https://github.com/cshanebrown78/SpaceVacation" class="text-dark"><strong>Git Hub Repo</strong></a>
                                 </div>
                             </div>
                         </div>
@@ -122,16 +122,16 @@
                   </br>
                   <div class="card mb-3 mx-auto" style="max-width: 1040px;">
                       <div class="row no-gutters">
-                          <div class="col-md-4">
+                          <div class="col-md-4 bg-secondary">
                               <img src="assets/images/project2.PNG" class="card-img" alt="Fantasy Football Advisor">
                           </div>
                           <div class="col-md-8">
-                              <div class="card-body">
+                              <div class="card-body bg-secondary">
                                   <h5 class="card-title">Fantasy Football Advisor</h5>
-                                  <p class="card-text">This is an App developed as part of a project for our coding bootcamp class.  At this point in the development it is intended to help new people to Fantasy Football with their draft.  Users create and account and then draft players.  The draft page shows the top 5 players at each position.</p>
+                                  <p class="card-text">This App was developed to help newcomers to Fantasy Football. At this point in the development it is intended to help with their draft.  Users create and account and then draft players.  The draft page shows the top 5 players at each position.</p>
                                   <p><strong>Technologies Used: </strong> Javascript, MySQL, Sequilize, Bootstrap</p>
-                                  <a href="https://immense-dawn-88778.herokuapp.com/">App</a><br>
-                                  <a href="https://github.com/cshanebrown78/FantasyFootballAdvisor">Git Hub Repo</a>
+                                  <a href="https://immense-dawn-88778.herokuapp.com/" class="text-dark"><strong>App</strong></a><br>
+                                  <a href="https://github.com/cshanebrown78/FantasyFootballAdvisor" class="text-dark"><strong>Git Hub Repo</strong></a>
                               </div>
                           </div>
                       </div>
@@ -143,16 +143,16 @@
                   </br>
                   <div class="card mb-3 mx-auto" style="max-width: 1040px;">
                       <div class="row no-gutters">
-                          <div class="col-md-4">
+                          <div class="col-md-4 bg-secondary">
                               <img src="assets/images/friendfinder.png" class="card-img" alt="Space Vacation">
                           </div>
                           <div class="col-md-8">
-                              <div class="card-body">
+                              <div class="card-body bg-secondary">
                                   <h5 class="card-title">Friend Finder</h5>
-                                  <p class="card-text">This app has the user enter their name and a link to an image of them and then has them answer some questions based on a value from 1 - 5. Once these are submitted it compares the scores to that of people in the system and matches the one with the closest score displaying that person in a modal.</p>
+                                  <p class="card-text">This App matches users with characters from the show "Chuck".  It has the user enter their name and a link to an image of themselves, then answer some questions.  Once these are submitted it matches the one with the closest score and displays that person in a modal.</p>
                                   <p><strong>Technologies Used: </strong> Javascript, Bootstrap, Body Parser,  Node Express</p>
-                                  <a href="https://shrouded-falls-45844.herokuapp.com/">App</a><br>
-                                  <a href="https://github.com/cshanebrown78/FriendFinder">Git Hub Repo</a>
+                                  <a href="https://shrouded-falls-45844.herokuapp.com/" class="text-dark"><strong>App</strong></a><br>
+                                  <a href="https://github.com/cshanebrown78/FriendFinder" class="text-dark"><strong>Git Hub Repo</strong></a>
                               </div>
                           </div>
                       </div>
@@ -164,16 +164,16 @@
                   </br>
                   <div class="card mb-3 mx-auto" style="max-width: 1040px;">
                       <div class="row no-gutters">
-                          <div class="col-md-4">
+                          <div class="col-md-4 bg-secondary">
                               <img src="assets/images/googlebooks.png" class="card-img" alt="Space Vacation">
                           </div>
                           <div class="col-md-8">
-                              <div class="card-body">
+                              <div class="card-body bg-secondary">
                                   <h5 class="card-title">React Google Books Search</h5>
                                   <p class="card-text">This app was designed to be a MongoDB Single Page Application. This is accomplished through the use of react-router-dom, which hides and shows React components based on user actions. It is a full MERN stack application.</p>
                                   <p><strong>Technologies Used: </strong> REACT, Mongoose, Express, Node, Axios, React-Router-Dom</p>
-                                  <a href="https://boiling-refuge-58776.herokuapp.com/">App</a><br>
-                                  <a href="https://github.com/cshanebrown78/REACT-Google-Book-Search">Git Hub Repo</a>
+                                  <a href="https://boiling-refuge-58776.herokuapp.com/" class="text-dark"><strong>App</strong></a><br>
+                                  <a href="https://github.com/cshanebrown78/REACT-Google-Book-Search" class="text-dark"><strong>Git Hub Repo</strong></a>
                               </div>
                           </div>
                       </div>
@@ -185,7 +185,24 @@
       </section>
 
       <section id="skills">
-
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 mx-auto text-center">
+                    <h2>Skills</h2></br>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="assets/images/html_css.jpg" class="icon-img" alt="">
+                </div>
+                <div class="col-md-4">
+                    <img src="assets/images/js.png" class="icon-img" alt="">
+                </div>
+                <div class="col-md-4">
+                    <img src="assets/images/jquery.png" class="icon-img" alt="">
+                </div>
+            </div>
+        </div>
       </section>
 
       <section id="resume">
