@@ -24,10 +24,24 @@ section {
     padding-bottom: 1px;
 }
 
-.about p {
+/* Portfolio */
+.myportfolio {
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+}
+
+
+/* About */
+
+#about{
+    font-size: 1.25rem;
+    text-shadow: 0 0 3px black;
+}
+
+/* .about p {
     font-size: 20px;
     line-height: 150%;
-}
+} */
 
 .container {
     margin-top: 20px;
@@ -41,14 +55,18 @@ button .btn-position {
     background-image: url("../images/bg1.jpg");
 }
 
+/* Projects */
+
 #projects {
     background-color: rgb(8, 4, 58);
 }
 
 .icon-img {
     height: 200px;
-    width: 200px
+    width: 200px;
+    padding: 15px 0 15px 0
 }
+
 
 /* resume */
 
@@ -57,7 +75,22 @@ button .btn-position {
     margin: auto;
 }
 
+#resume {
+    background-color: rgb(8, 4, 58);
+}
+
 embed {
     width: 800px;
     height: 1100px;
+}
+
+/* Contact */
+
+.contact-img {
+    height: 150px;
+    width: 150px;
+}
+
+#contact p {
+    font-size: 1.25rem
 }
