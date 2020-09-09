@@ -34,6 +34,11 @@ h2 .myName {
     text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
 }
 
+.statement {
+    background-image: url("../images/bg1.jpg");
+}
+
+
 /* About */
 
 #about{
@@ -45,9 +50,7 @@ h2 .myName {
     margin-top: 20px;
 }
 
-.statement {
-    background-image: url("../images/bg1.jpg");
-}
+
 
 /* Projects */
 
