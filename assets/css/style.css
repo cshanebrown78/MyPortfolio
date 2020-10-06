@@ -99,11 +99,13 @@ embed {
 @media screen and (max-width: 768px) {
      embed {
         max-width: 668px;
+        max-height: 918px;
     }
 }
 
 @media screen and (max-width: 640px) {
     embed {
        max-width: 540px;
+       max-height: 742px
    }
 }
